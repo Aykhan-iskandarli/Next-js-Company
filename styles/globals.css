@@ -1,16 +1,195 @@
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 
 * {
   box-sizing: border-box;
+  
+  
 }
+
+textarea{
+  outline: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+/* 2/12 */
+.col-2 {
+  width: 16.66%;
+}
+
+/* 3/12 */
+.col-3 {
+  width: 25%;
+}
+
+/* 4/12 */
+.col-4 {
+  width: 33.33%;
+}
+
+/* 5/12 */
+.col-5 {
+  width: 41.66%;
+}
+
+/* 6/12 */
+.col-6 {
+  width: 50%;
+}
+
+/* 7/12 */
+.col-7 {
+  width: 58.33%;
+}
+
+/* 8/12 */
+.col-8 {
+  width: 66.66%;
+}
+
+/* 9/12 */
+.col-9 {
+  width: 75%;
+}
+
+/* 10/12 */
+.col-10 {
+  width: 83.33%;
+}
+
+/* 11/12 */
+.col-11 {
+  width: 91.66%;
+}
+
+/* 12/12 */
+.col-12 {
+  width: 100%;
+}
+.btn{
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.primary{
+  background-color: #FBA504;
+ 
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.primary::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  width: 1px;
+  background: #202c45;
+  border-radius: 17px;
+  content: "";
+  z-index: -1;
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.primary:hover:after{
+  opacity: 1;
+  border-radius: 40px;
+  width: 150px;
+  visibility: visible;
+}
+
+.col-custom{
+  width: 41%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.align-center{
+  align-items: center;
+}
+
+.input{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 999px) {
+  .container {
+    max-width: 100%;
+    
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .column{
+    flex-direction: column;
+}
+  .col-6{
+    width: 100%;
+  }
+  .col-4{
+    width: 100%;
+  }
+  .col-2{
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;
+  }
+}
+
+
+
+
+

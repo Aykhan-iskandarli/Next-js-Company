@@ -1,0 +1,94 @@
+.workus {
+  margin: 100px 0;
+}
+
+.workus .title {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.workus .title-content {
+  text-align: center;
+  width: 100%;
+}
+.workus .head {
+  text-align: center;
+}
+.portfolio-bg{
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+}
+.portfolio-boxs .work-img-box {
+  width: 100%;
+}
+.portfolio-boxs .work-img-box img{
+  transition: all .3s ease;
+  overflow: hidden;
+  object-fit: cover;
+  height: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.workus .portfolio-boxs .work-img-box img {
+  width: 500px;
+
+}
+.portfolio-boxs .work-img-box img:hover{
+    transform: scale(1.1);
+}
+.works-name .title-content p {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.portfolio-boxs {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 1px 1px 60px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 50px;
+  width: 500px !important;
+}
+.works-name .title {
+  padding: 0 20px;
+  width: 100%;
+}
+.works-name {
+}
+
+.works-name .head {
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .workus .portfolio-boxs {
+        width: 480px !important;
+    }
+    .works-name .head {
+        font-size: 18px;
+        width: 80%;
+      }
+      .workus .portfolio-boxs .work-img-box img {
+        width: 480px;
+      
+      }
+
+}
+
+@media screen and (max-width:840px) {
+  .portfolio-boxs {
+    margin: 0;
+  
+}
+.portfolio-bg {
+  background-color: rgb(245, 245, 245);
+  padding: 0px;
+}
+.workus .portfolio-boxs {
+  width: 100%;
+}
+}

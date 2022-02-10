@@ -1,0 +1,87 @@
+.card{
+    background: #fff;
+    position: relative;
+    top: 0;
+    text-align: center;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+    padding: 0 30px 10px 30px;
+    margin-top: 57px;
+    width: 320px;
+    height: 220px;
+    transition: all .3s ease;
+    margin: 0 20px ;
+}
+.card:hover{
+position: relative;
+top: -10px;
+}
+.card-B{
+    text-align: center;
+}
+
+.card-B.title{
+    font-size: 23px;
+    line-height: 35px;
+    color: #130F40;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 15px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.desc{
+    font-size: 13px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.custom-shape{
+    position: absolute;
+    top: -0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+}
+
+.card-H{
+    position: relative;
+}
+.card-H span{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+@media screen and (max-width: 840px) {
+ .card{
+     margin:60px 0 ;
+     width: 100%;
+ }
+ .card-content{
+    text-align: center;
+    width: 100%;
+ }
+  }
+  
