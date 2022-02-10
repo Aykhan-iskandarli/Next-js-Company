@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 const HeroPage = ({ children, title, currentPage }) => {
   return (
     <section className="heroPage-section">
-      <div class="banner-circle-box">
+      <div className="banner-circle-box">
         <span className="circle one right "></span>
         <span className="circle two right "></span>
         <span className="circle three right "></span>
