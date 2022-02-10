@@ -8,7 +8,7 @@ const FooterBottom = () => {
         <div className="flex mobile">
           <div className='footer-desc'>
             <p>
-              Copyright &copy; 2022 <span>OneStop Tech</span>All Rights
+              Copyright C 2022 <span>OneStop Tech</span>All Rights
               Reserved.
             </p>
           </div>

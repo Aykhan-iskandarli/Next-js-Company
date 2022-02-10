@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="hero-section" >
 
-        <div class="banner-circle-box">
+        <div className="banner-circle-box">
 			<span className="circle one right " ></span>
 			<span className="circle two right " ></span>
 			<span className="circle three right " ></span>

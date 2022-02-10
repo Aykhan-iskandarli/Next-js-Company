@@ -12,7 +12,7 @@ const NewsLetter = () => {
   },[])
   return (
     <section className="news-letter">
-        <div class="banner-circle-box">
+        <div className="banner-circle-box">
 			<span className="circle one right animate-this" ></span>
 			<span className="circle two right animate-this" ></span>
 			<span className="circle three right animate-this" ></span>

@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <div className="about-us-content">
                     <Title title1="ABOUT US" title2="Make Easy Your Business With Us" className="about-title" />
                     <span>It is a long established fact that a reader will be distracted</span>
-                    <p>This is the simply dummy text of the printing and typesetting industry. That has been the industry's standard</p>
+                    <p>This is the simply dummy text of the printing and typesetting industry. That has been the industrys standard</p>
                     <p>This text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     <Button className="primary about-btn">Read More</Button>
                 </div>

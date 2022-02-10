@@ -10,8 +10,8 @@ const portfolio = () => {
           <HeroPage title="Our Portfolio " currentPage="Portfolio" />
             <div className='container '>
               <div className="row justify-between mobile-p">
-            {data.protfolio.map((job) => (
-                <div className="col-6 portfolio-page ">
+            {data.protfolio.map((job,id) => (
+                <div key={id} className="col-6 portfolio-page ">
                   <div className="portfolio-boxs">
                     <div className="work-img-box">
                       <img src={job.image} alt="" />
