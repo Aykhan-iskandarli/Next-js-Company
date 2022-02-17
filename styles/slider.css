@@ -127,10 +127,12 @@
     .slider-box{
         transform: scale(1);
         opacity: 1;
+        transition: all .4s ease;
     }
     .slider-box-col{
         margin: 0px;
         position: relative;
+        transition: all .4s ease;
     }
     .team-img-box img{
         height: 419px;

@@ -13,7 +13,6 @@ const Works = () => {
   var settings = {
     dots: true,
     infinite: false,
-    autoplay:true,
     speed: 500,
     slidesToShow: 2.5,
     slidesToScroll: 1,

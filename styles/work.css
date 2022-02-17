@@ -67,6 +67,8 @@
 @media screen and (max-width: 1400px) {
     .workus .portfolio-boxs {
         width: 480px !important;
+    margin: 0 !important;
+
     }
     .works-name .head {
         font-size: 18px;
@@ -89,6 +91,10 @@
   padding: 0px;
 }
 .workus .portfolio-boxs {
+  width: 100% !important;
+}
+.workus .portfolio-boxs .work-img-box img {
   width: 100%;
+
 }
 }
